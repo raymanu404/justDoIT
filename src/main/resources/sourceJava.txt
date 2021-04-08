@@ -1,0 +1,754 @@
+1. Limbajul Java este:
+a. compilat
+b. interpretat
+c. compilat si interpretat*
+^_^
+2. Cum este afirmatia “Java permite mostenirea multipla”:
+a. adevarata
+b. falsa*
+^_^
+3. Cum se realizeaza dezalocarea memoriei nefolosite in Java:
+a. cu ajutorul metodei dispose() pe care toate clasele o mostenesc din clasa Object
+b. cu ajutorul metodei destroy() pe care toate clasele o mostenesc din clasa Object
+c. cu ajutorul componentei Garbage collector*
+^_^
+4. Care din urmatoarele variante se poate utiliza pentru declararea unei constante in Java:
+a. const int a=3
+b. const b=3
+c. public static final c=5*
+^_^
+5. Incercuiti clasele infasuratoare:
+a. object, string
+b. Connection, statement
+c. integer, double, character*
+^_^
+6. Precizati care din urmatoarele declaratii este corecta:
+a. int []v=new int[5]*
+b. int *s
+c. int v[]=new int(5)
+^_^
+7. Mentionati ce va afisa urmatoarea secventa de cod:
+int []v=new int[5]
+v[0]=1
+v[1]=4
+v[2]=8
+System.out.println(v.length)
+a. 3
+b. 5*
+c. 2
+^_^
+8. Unde poate fi scris codul unui servlet:
+a. in una din metodele doGet() sau doPost() (in functie de tipul cererii HTTP) pentru a raspunde cererii clientului(sau in metodele apelate din aceasta)*
+b. in main
+c. in main si in metode apelate din main
+^_^
+9. Cum pot fi preluati parametrii completati intr-un form ai unui servlet?
+a. cu ajutorul unui obiect de tip HtmlForm si a metodei getformParameter()
+b. cu ajutorul unui vector de obiecte de tip FormParameter()
+c. cu ajutorul unui obiect de tip HttpServletRequest si a metodei getParameter*
+^_^
+10. Cum poate raspunde un servlet la cererea unui client?
+a. cu ajutorul unui obiect de tip HttpServletResponse si a unui obiect de tip PrintWriter*
+b. cu ajutorul unui vector de obiecte de tip FormResponse()
+c. cu ajutorul unui obiect de tip HtmlForm si a metodei sendFormParameter()
+^_^
+11. Daca metoda service() nu este suprascrisa, atunci implementarea implicita a acesteia este sa:
+a. apeleze anumite servicii din Windows
+b. apeleze metodele doGet() sau doPost() corespunzatoare*
+c. apeleze obiecte din datele introduse in form
+^_^
+12. Datele preluate cu tehnologia JDBC dintr-o baza de date se vor regasi intr-un obiect de tip:
+a. ResultSet*
+b. RecordSet
+c.DataSet
+^_^
+13. O comanda SQL care sterge un rand dintr-o baza de date se poate executa cu ajutorul metodei:
+a. executeQuery()
+b. executeUpdate()*
+c. executeDelete()
+^_^
+14. Pentru stabilirea unei conexiuni din Jaba catre baza de date se utilizeaza:
+a. un obiect de tip DatabaseConnection
+b. un obiect de tip DataSet
+c. metoda statica getConnection() din clasa Drivermanager, careia i se transmi URL-ul catre baza de date, utilizatorul si parola*
+^_^
+15. Tehnologia JDBC utilizeaza un obiect de tip Statement:
+a. pentru transmiterea comenzilor SQL cu parametrii de intrare in interogari
+b. pentru executarea procedurilor stocate pe baza de date
+c. pentru transmiterea comenzilor SQL simple fara parametrii*
+^_^
+16. In JDBC obtinerea valorilor campurilor dintr-o baza de date se realizeaza cu ajutorul unor metode precum:
+a. getParameter()
+b. getInt(), getString()*
+c. getFieldValue()
+^_^
+17. Actualizarile programatice sunt:
+a. actualizari aplicate direct REsultSet-ului care sunt automat efectuate si asupra bazei de date*
+b. actualizari ale metodelor vechi din Java la cele noi
+c. actualizari ale pachetelor vechi din Java la cele noi
+^_^
+18. Care este tipul de date Java care corespunde tipului de date varchar din MySql:
+a. string*
+b. char
+c. int
+^_^
+19. Colectiile de obiecte:
+a. reduc efortul de programare si cresc gradul de reutilizare al codului*
+b. complica procesul de programare dar cresc gradul de reutilizare al codului
+c. complifica procesul de programare dar scad gradul de reutilizare al codului
+^_^
+20. Un ArrayList este:
+a. o interfata care este implementata prin clasa List
+b. o clasa care implementeaza interfata List printr-un vector care isi ajusteaza dimensiunea*
+c. un vector de lungime fixa
+^_^
+21. the Collections Framewors contine:
+a. interfete de colectii, implementari ale acestor interfete si algoritmi pentru a le manipula*
+b. doar interfete de colectii
+c. doar implementari ale obiectelor
+^_^
+22. Un LinkedList este o
+a. implementare a interfetei List cu lisa dublu inlantuita*
+b. implementare a interfetei List cu ajutorul unui tabel de dispersie
+c. implementarea interfetei list printr-un arbore rosu-negru
+^_^
+23. Interfata Set care extinde interfata Collection
+a. nu permite elemente duplicat si este ordonata
+b. nu permite elemente duplicat si poate sa fie sau nu ordonata*
+c. permite lemente duplicat si nu e ordonata
+^_^
+24. Intr-un TreeSet:
+a. elementele sunt ordonate pe baza valorii lor*
+b. elementele nu sunt ordonate
+c. doar o pare din elemente sunt ordonate
+^_^
+25. Ce este XML?
+a. un set de reguli pentru structurarea datelor in fisiere binare
+b. un set de reguli pentru structurarea datelor in baze de date
+c. un set  de reguli, specificatii si conventii pentru structurarea datelor in fisiere text*
+^_^
+26. XML este abrevierea de la:
+a. extensible markup language*
+b. xanax markup language
+c. xerox markup language
+^_^
+27. Incercuiti afirmatia corecta cu privire la JSP:
+a. fisierele cu extensia.jsp nu pot contine decat cod …
+b. jsp-urile nu separa continutul static de cel dinamin
+c. extinde limbajul HTML, oferind posibilitatea integrarii de secvente de cod Java prin intermediul unor tag-uri speciale*
+^_^
+28. JSP-urile(Java Server Progress)
+a. arata ca niste fisiere HTML si pot sa genereze doar continut dinamic*
+b. arata ca niste fisiere HTML si pot sa genereze doar continut static
+c. nu seamana deloc cu fisierele HTML ci mai degraba cu o aplicatie Java obisnuita
+^_^
+29. XML utlizeaza:
+a.taguri, atribute si text*
+b. variabile de atribute si text
+c. variabile, atribute si text
+^_^
+30. SAX permite procesarea documentelor XML:
+a. prin intermediul unor evenimente*
+b. 
+c. 
+^_^
+31. interfata Map:
+a. pune in corespondenta cheile catre anumite valori*
+b. creeaza o harta grafica
+c. creeaza o harta rutiera
+^_^
+32. Se considera un obiect de tip Vector in care au fost adaugate 4 elemente. Cat este capacitatea vectorului:
+a. 4
+b. 10*
+c. 1
+^_^
+33. Ce este un servlet?
+a. o aplicatie desktop
+b. o aplicatie cu baze de date
+c. o componenta software pe parte de server, scrisa in Java si care extinde functionalitatea unui server (de obicei HTTP)*
+^_^
+34. Cand un browser trimite o cerere catre server...
+a. serverul o trimite mai departe unui servlet. Servlet-ul proceseaza cererea si construieste un raspuns (in HTML) care este returnat clientului*
+b. servletul o trimite mai departe unui administrator
+c. serverul o pune intr-o lista de asteptare pe care administratorul o va solutiona
+^_^
+35. Cum se poate defini un servlet?
+a. prin implementarea interfetei ApacheServlet
+b. se creeaza o metoda de tip Servlet
+c. prin extinderea clasei httpServlet*
+^_^
+36. Servleturile utilizeaza metoda service() care:
+a. este apelata automat ca raspuns la cererea fiecarui client*
+b. se apeleaza doar cand porneste servletul
+c. se apeleaza doar dupa ce servletul este incarcat
+^_^
+37. Ce se intelege prin supraincarcare?
+a. mai multe metode pot avea acelasi nume dar o signatura diferita*
+b. mai multe metode pot avea acelasi nume si aceeasi signatura
+c. o metoda careia i se transmit la apel mai multi parametrii decat aceasta are
+^_^
+38. Cum este afirmatia “La apelul unei functii anumiti parametrii pot fi omisi”:
+a. adevarat
+b. falsa*
+^_^
+39. Ce face comanda super()?
+a. creeaza un obiect al superclasei
+b. apeleaza  metoda oarecare numita super()
+c. apeleaza constructorul fara parametrii a clasei de baza*
+^_^
+40. Se considera o clasa care contine o variabila membru statica. Pentru variabila membru statica:
+a. se aloca memorie o singura data indiferent de numarul de obiecte de acel tip*
+b. se aloca memorie direct proportional de numarul de obiecte de acel tip
+c. se aloca o zona de memorie de 30 de octeti pentru fiecare variabila statica
+^_^
+41. Cum poate fi convertit un String intr-un intreg
+a.int x= Integer.parseInt(“123”);
+b.Integer x2 = Integer.valueOf(“123”);*
+^_^
+42. Potrivit principiului incapsularii:
+a. accesul la variabilele membre ale unui obiect se poate realiza doar cu ajutorul metodelor obiectului*
+b. accesul la metodele obiectului se poate realiza doar cu ajutorul variabileleor membre
+c. accesul la variabilele membre se poate realiza doar din constructor
+^_^
+43. Care este clasa aflata la radacina ierarhiei de clasa in Java:
+a. Root
+b. Object*
+c. Root...
+^_^
+44. Precizati care va fi caracterul afisat ….:
+String s=”abcd”;
+system.out.println(s[1]);
+a. va afisa litera b
+b. va afisa litera a
+c. va genera eroare*
+^_^
+45. Ce va afisa urmatoarea secventa:
+String nr1=”3”;
+String nr2=”3”;
+system.out.println(nr1+nr2);
+a. 7
+b. 34*
+c. expresia este...
+^_^
+46. ce va afisa secventa...
+int[] v={3,2,1};
+for(int i:v)
+{ system.out.println(“”+i)}
+a. 0 1 2
+b. 1 2 3
+c. 3 2 1*
+^_^
+47. In situatia in care dorim sa scriem un program care sa determine cand cursorul mouseului ajunge deasupra unui JPanel, cand paraseste suprafata JPanel-ului si cand se face click pe JPanel trebuie sa:
+a. implementam interfata MouseListener*
+b. implementam intefetele mouse over, mouseout si mouseclick
+c. implementam interfata mousestaff
+^_^
+48. pentru a crea un eveniment pentru o componenta:
+a. se selecteaza in Eclipse componenta si se alege din interfata evenimentul dorit pe care il vom edita
+b. se face dublu click in eclipse pe componenta si se deschide rutina de tratare a evenimentului pe care o vom edita
+c. trebuie creata o clasa care implementeaza interfata ce contine metodele de interes si o instanta a clasei respective se transmite ca parametru metodei addXXxListener a componentei*
+^_^
+49. imaginea de mai jos contien o componenta de tip:
+a. JMenu
+b. JTabbedPane*
+c. JForm
+^_^
+50. JDBC este o tehnologie care:
+a.permite realizarea de aplicatii Java cu interfata...
+c. Permite conectarea la baza de date si ofera metode pentru interogarea si actualizarea acestora*
+^_^
+51. Care este rolul cuvantului cheie synchronized?
+a. cu ajutorul lui se pot declara secvente de cod care se executa in regim de exclucere mutuala*
+b. cu ajutorul lui se pot declara fire de executie
+c. cu ajutorul lui s epot realiza schimburi de informatii in retea
+^_^
+52. ce prioritate are un fir de executie?
+a. egala cu cea a firului de executie care l-a creat*
+b. mai mica decat cea a firului de executie care l-a creat
+c. mai mare decat cea a firului de executie care l-a creat
+^_^
+53. Biblioteca Swing ofera clase pentru:
+a. crearea aplicatiilor cu interfata grafica*
+b. tratarea exceptiilot
+c. lucru cu baze de date
+^_^
+54. cum se poate crea i fereastra in java?
+a. cu ajutorul clasei Form
+b. cu ajutorul clasei JavaWindow
+c. cu ajutorul unei clase care extinde JFrame*
+^_^
+55. metoda setBounds() permite:
+a. stabilirea stilului, grosimii si formei pentru marginile unei componente
+b. stabilirea doar a dimensiunii unei componenta
+c. amplasarea componentei asupra careia se aplica intr-o anumita pozitie si stabilirea dimensiunii acelei componente*
+^_^
+56. metoda setToolTipText() permite:
+a. setarea continutului unei casete de text
+b. setarea textului unui control JLabel
+c. specificarea unui text care se va ivi atunci cand cursorul mouseului sta deasupra unei componente*
+^_^
+57. afisarea unui mesaj in java se poate face:
+a. MessageBox.Show(“Mesaj”)
+b. ...(“Mesaj”)
+c. JOptionPane.showMessageDialog(null, “Mesaj”)*
+^_^
+58. unde trebuie scris codul care vrem sa se execute atunci cand se face click pe un JButton
+a. in evenimentul JButton_CLick
+b. in metoda ActionPerformed a unei clase ce implementeaza interfata ActionListener*
+c. in metoda...
+^_^
+59. O clasa care implementeaza o interfata:
+a. trebuie sa specifice codul corespunzator metodelor din interfata dar poate sa declare variabile si metode care nu apar in interfata*
+b. trebuie sa specifice codul corespunzator metodelor din interfata dar nu poate sa declare variabile si metode care nu apar in interfata
+c. nu trebuie sa specifice codul corespunzator metodelor din interfata
+^_^
+60. o clasa poate implementa un numar de interfete egal cu:
+a. 1
+b. >=1*
+c. 0
+^_^
+61. implementarea unei interfete poate fi:
+a. doar o clasa
+b. o clasa sau o clasa abstracta*
+c. o alta interfata
+^_^
+62. ce este o exceptie?
+a. o exceptie este un eveniment care nu permiote continuarea normala a executiei propgramului*
+b. o variabila care are o valoare exceptional de mare
+c. o functie care returneaza o valoare neobisnuita
+^_^
+63. care sunt constructiile de baza pentru lucrul cu exceptii?
+a. try, catch, finally, throw, throws*
+b. super exception, fatal error
+c. fatal warning, application exit, exceptional value
+^_^
+64. instructiunea throw poate fi plasata:
+a. in interiorul oricarei metode
+b. in exteriorul oricarei metode
+c. in metode a caror definitie este insotita de o clauza throws in care apare tipul de exceptie respectiv*
+^_^
+65. blocurile try-catch:
+a. Indica seria de instructiuni in care pot sa apara exceptiile, tipul exceptiilor si modul in care se solutioneaza acestea*
+b.indica bucati de cod care pot contine erori de sintaca
+c. ...
+^_^
+66. secventa finally:
+a. reprezinta o zona de cod care se executa inainte de a iesi din program
+b.reprezinta o zona de cod care se executa inainte de a iesi dintr-o metoda
+c. reprezinta un mecanism prin care se forteaza executia unei portiuni de cod indiferent daca o exceptie a aparut sau nu*
+^_^
+67. ce se intelege prin fire de executie?
+a. un fir de executie reprezinta actiunile pe care un utilizator le face asupra programului de la pornirea acestuia pana la inchiderea lui
+b. un fir de executie reprezinta o inlantuire de instructiuni care se executa una dupa alta
+c. firele de executie reprezinta portiuni de cod ale aceluiasi program care se pot executa in paralel una fata de alta*
+^_^
+68. cum se poate crea un fir de executie?
+a. fie se creaza o clasa derivata din clasa Thread si in acea clasa se redefineste metoda run() fie se implementeaza interfata Runnable*
+c. se creeaza o metoda de tip runnable
+c. se creaza cate o metoda de tip Thread pentru fiecare fir de executie
+^_^
+69. apelul metodei start() aferente unui fir de executie determina:
+a. inceperea rularii firului de executie*
+b. trecerea firului in starea gata de rulare
+c. trecerea firului de executie in starea creat
+^_^
+70. ce diferenta este intre blocarea unui fir de executie cu ajutorul metodei sleep(durata) respectiv cu ajutorul metodei wait(durata)
+a.Sleep Pune Threadul curent sa “doarma” pentru o anumita perioada de timp. Wait Pune Threadul curent sa astepte pana cand alt thread invoca metoda “ notify() “ sau “notifyAll()” sau trece durata*
+^_^
+71. Care este rolul unui Layout Manager?
+a. decide modul in care sunt implementate componentele in cadrul unui container*
+b. cu ajutorul lui se pot specifica culorile si fontul containerelor?
+c. cu ajutorul lui se pot gestiona servleturile
+^_^
+72. care este layoutmanagerul implicit al unui container
+a. flowlayout
+b. gridlayout
+c. borderlayout*
+^_^
+73. borderlayout:
+a. imparte container-ul in 5 regiuni (sus, jos, stanga, dreapta si centru)*
+b. amplaseaza controalele unul langa altul
+c.amplaseaza controalele unul sub altul
+^_^
+74. Flowlayout
+a. amplaseaza controalele la coordonate specificate de utluzator(x,y)
+b. amplaseaza controalele unul langa altul iar daca nu mai au loc pe orizontala sunt trecute pe urmatorul rand*
+c. amplaseaza controalele in celulele unui tabel
+^_^
+75. myframe este un obiect de tip JFrame. Linia de cod:
+myframe.getcontentpane().setlayout(null):
+a. dezactiveaza layoutul pentru a putea adauga componente in myframe
+b. dezactiveaza orice layoutmanager cu scopul de a putea amplasa controalele din contalinerul lui in pozitii absolute*
+c.
+^_^
+76. incercuiti afirmatia corecta:
+a. metodele statice sunt similare functiilor obisnuite in C*
+b. metodele statice nu pot fi apelate decat din lte metode ale clasei care le contine
+c. metodele statice nu pot contine declaratii de variabile
+^_^
+77. incercuiti afirmatia corecta:
+a. o clasa abstracta contine doar signaturi de metode
+b. o clasa abstracta contine campuri si metode normale(pentru care se specifica o implementare dar si modele de metode care urmeaza sa fie implementate in mod obligatoriu de clasele care extind clasa abstracta)*
+c. o clasa abstracta nu contine metode
+^_^
+78. incercuiti afirmatia corecta:
+a. o interfata este formata din constante si signaturi de metode*
+b. termenul interface se utilizeaza doar cu privire la aspectul aplicatiei
+c. o interfata contine atat metode neimplementate cat si metode implementate
+^_^
+79. o clasa abstracta poate fi:
+a. extinsa doar de o alta clasa abstracta
+b. extinsa doar de o interfata
+c. extinsa de o alta clasa abstracta sau de o clasa normala*
+^_^
+80. o metoda abstracta poate fi plasata:
+a. doar intr-o clasa abstracta*
+b. in interfete si in orice clasa
+c. in orice …
+^_^
+81. ce cuvinte cheie/modificatori de acces au in mod implicit variabilele membre din interfete:
+a. public*
+b. private
+c. protected
+^_^
+82. Se considera o clasa care contine o variabila membru statica. Pentru variabila membru statica:
+a. se aloca memorie o singura data indiferent de nuamrul de obiecte de acel tip*
+b. se aloca memorie direct proportional de numarul de obiecte de acel tip
+c. se aloca o zona de memorie de 30 de octeti pentru fiecare variabila static
+d. se aloca o zona de memorie care are o dim prestabilita indifferent de tipul variabilei
+^_^
+83. Incercuiti afirmatia corecta:
+a. o clasa abstracta contine doar signaturi de metode
+b. o clasa abstracta contine campuri si metode normale(pentru care se specifica o implementare dar si modele de metode care urmeaza sa fie implementate in mod obligatoriu de clasele care extind clasa abstracta)*
+c. o clasa abstracta nu contine metode
+d. o clasa abstracta poate contine doar var membru si metode fara implementare
+^_^
+84. Incercuiti clasele infasuratoare:
+a. object, string
+b. Result, statement
+c. integer, double, character*
+d.hibernate,design
+e.Collection, statement
+^_^
+85. Cum se realizeaza dezalocarea memoriei nefolosite in Java:
+a. cu ajutorul metodei free() 
+b. cu ajutorul metodei dispose() pe care toate clasele o mostenesc din clasa Object
+c. cu ajutorul metodei destroy() pe care toate clasele o mostenesc din clasa Object
+d. cu ajutorul componentei Garbage collector*
+^_^
+86. Potrivit principiului incapsularii:
+a. accesul la variabilele membre ale unui obiect se poate realiza doar cu ajutorul metodelor obiectului*
+b. accesul la metodele obiectului se poate realiza doar cu ajutorul variabilelor membre
+c. accesul la variabilele membre se poate realiza doar din constructor
+d. accesul la variabilele membre se poate realiza doar din alt obiect
+^_^
+87. Un ArrayList este:
+a. o interfata care este implementata prin clasa List
+b. o clasa care implementeaza interfata List printr-un vector care isi ajusteaza dimensiunea*
+c. un vector de lungime fixa
+^_^
+88. Mentionati ce va afisa urmatoarea secventa de cod:
+int []v=new int[5]
+v[0]=1
+v[1]=4
+v[2]=8
+System.out.println(v.length)
+a. 3
+b. 5*
+c. 2
+d.eroare
+^_^
+89. Ce se intelege prin supraincarcare?
+a. mai multe metode pot avea acelasi nume dar o signatura diferita*
+b. mai multe metode pot avea acelasi nume si aceeasi signatura
+c. o metoda careia i se trnsmit la apel mai multi parametrii decat aceasta are
+d. o metoda care are acelasi nume cu o clasa sau o variabila
+^_^
+90. Cum este afirmatia “La apelul unei functii anumiti parametrii pot fi omisi”:
+a. adevarat
+b. falsa*
+c. adevarata doar in anumite situatii
+^_^
+91. Precizati care va fi caracterul afisat ….:
+String s=”abcd”;
+system.out.println(s[1]);
+a. va afisa litera b
+b. va afisa litera a
+c. va afisa tot sirul
+d. va afisa sirul incepand cu litera b pana la final
+e. va genera eroare*
+^_^
+92. ce va afisa secventa...
+int[] v={0,1,2};
+for(int i:v)
+{ system.out.println(“”+i)}
+a. 0 1 2*
+b. 2 1 0
+c. 1 2 3
+d. 3 2 1
+e.este gresita, va genera eroare
+^_^
+93. Precizati care din urmatoarele declaratii este corecta:
+a. int []v=new int[5]*
+b. int *v
+c. int v()=new int(5)
+d.int v = new int[5]
+^_^
+94. Ce face comanda super()?
+a. creeaza un obiect al superclasei
+b. apeleaza  metoda oarecare numita super()
+c. apeleaza constructorul fara parametrii a clasei de baza*
+^_^
+95. O clasa abstracta poate fi:
+a. extinsa doar de o alta clasa abstracta
+b. extinsa doar de o interfata
+c. extinsa de o alta clasa abstracta sau de o clasa normala*
+^_^
+96. ce cuvinte cheie/modificatori de acces au in mod implicit variabilele membre din interfete:
+a. public*
+b.private
+c. protected
+^_^
+97.Care va fi valoarea variabilea a dupa executarea liniilor de cod:
+Int a=1;
+a<<=1;
+a.liniile de cod sunt gresite si vor genera eroare
+b.0
+c.1
+d.2*
+e.10
+^_^
+98.Ce se va afisa?
+int culoare=1;
+switch(culoare)
+{
+case 1:sysout(“ alb “);
+case 2:sysout(“rosu“);
+case 3:sysout(“ negru “);
+}
+a.alb
+b.alb rosu
+c.alb rosu negru*
+^_^
+99. secventa finally:
+a. reprezinta o zona de cod care se executa inainte de a iesi din program
+b.reprezinta o zona de cod care se executa inainte de a iesi dintr-o metoda
+c. reprezinta un mecanism prin care se forteaza executia unei portiuni de cod indiferent daca o exceptie a aparut sau nu*
+^_^
+100. Se considera un obiect de tip Vector in care au fost adaugate 4 elemente. Cat este capacitatea vectorului:
+a. 4
+b. 10*
+c. 1
+^_^
+101. metoda setToolTipTest() permite:
+a. setarea continutului unei casete de text
+b. setarea textului unui control JLabel
+c. specificarea unui text care se va ivi atunci cand cursorul mouseului sta deasupra unei componente*
+^_^
+102. In situatia in care dorim sa scriem un program care sa determine cand cursorul mouseului ajunge deasupra unui JPanel, cand paraseste suprafata JPanel-ului si cand se face click pe JPanel trebuie sa:
+a. implementam interfata MouseListner*
+b. implementam intefetele mouse over, mouseout si mouseclick
+c. implementam interfata mousestaff
+^_^
+103. . Datele preluate cu tehnologia JDBC dintr-o baza de date se vor regasi intr-un obiect de tip:
+a. ResultSet*
+b. RecordSet
+c .DataSet
+^_^
+104. O comanda SQL care sterge un rand dintr-o baza de date se poate executa cu ajutorul metodei:
+a. executeQuery()
+b. executeUpdate()*
+c. executeDelete()
+^_^
+105. Pentru stabilirea unei conexiuni din Java catre baza de date se utilizeaza:
+a. un obiect de tip DatabaseConnection
+b. un obiect de tip DataSet
+c. metoda statica getConnection() din clasa Drivermanager, careia i se transmi URL-ul catre baza de date, utilizatorul si parola*
+^_^
+106. . Tehnologia JDBC utilizeaza un obiect de tip Statement:
+a. pentru transmiterea comenzilor SQL cu parametrii de intrare in interogari
+b. pentru executarea procedurilor stocate pe baza de date
+c. pentru transmiterea comenzilor SQL simple fara parametrii*
+^_^
+107.Ce se va afisa?
+ public class OClasa1 {
+	private static int x;
+	private int y;
+	public OClasa1(int x, int y)
+	{
+		this.x = x;
+		this.y = y;
+	}
+	public int getX() {
+		return x;
+	}
+	public int getY() {
+		return y;
+	}
+}
+
+public class Main {
+
+	public static void main(String[] args) {
+		OClasa1 ob1 = new OClasa1(1,3);
+		OClasa1 ob2 = new OClasa1(2,4);
+		int xx = ob1.getX() + ob2.getX();
+		int yy = ob1.getY() + ob2.getY();
+		System.out.println(xx+" "+yy);
+
+	}
+
+}
+a. 5 7
+b. 4 7*
+c. 3 7
+d. 5 5
+e. secventa nu poate fi rulata
+^_^
+108. Interfata Set care extinde interfata Collection
+a. nu permite elemente duplicat si este ordonata
+b. nu permite elemente duplicat si poate sa fie sau nu ordonata*
+c. permite lemente duplicat si nu e ordonata
+^_^
+109. the Collections Framewors contine:
+a. interfete de colectii, implementari ale acestor interfete si algoritmi pentru a le manipula*
+b. doar interfete de colectii
+c. doar implementari ale obiectelor
+^_^
+110.Precizati ce va afisa secventa:
+Double x = Math.sqrt(Math.PI);
+Int y=(x>2)?1:2;
+Sysout(Math.pow(2,y)):
+
+a.1
+b.2
+c.4*
+^_^
+111.Se considera liniile de cod de mai jos:
+public class Chitara {
+		private int nr_corzi=6;
+			private String culoare="neagra";
+			public Chitara(int nr_corzi, String culoare)
+			{ this.nr_corzi=nr_corzi;
+			  this.culoare=culoare;
+			}
+		public String to_string()
+		{
+			return "chitara are" + nr_corzi+ "si culoarea" + culoare;
+		}
+	}
+public static void main(String[] args) {
+		Chitara c= new Chitara();
+		System.out.println(c);
+		} 
+a.chitara are 6 corzi si culoarea neagra
+b.va afisa diverse. Chitara @ si o valoare in hexa
+c.secventa nu poate fi rulata.*
+^_^
+112. In JDBC obtinerea valorilor campurilor dintr-o baza de date se realizeaza cu ajutorul unor metode precum:
+a. getParameter()
+b. getInt(), getString()*
+c. getFieldValue()
+d.getValue()
+^_^
+113. Intr-un TreeSet:
+a. elementele sunt ordonate pe baza valorii lor*
+b. elementele nu sunt ordonate
+c. doar o pare din elemente sunt ordonate
+^_^
+114.Precizati ce va afisa secventa: sysout(Integer.toBinaryString(23));
+a.1111
+b.0101
+c.10101
+d.10111*
+e.00100011
+^_^
+115. interfata Map:
+a. pune in corespondenta cheile catre anumite valori*
+b .pune in corespondenta un rand dintr-un table cu un rand din alt tabel
+c. creeaza o harta grafica
+d. creeaza o harta rutiera
+^_^
+116. Cum se poate defini un servlet?
+a. prin implementarea interfetei ApacheServlet
+b. se creeaza o metoda de tip Servlet
+c. prin extinderea clasei httpServlet*
+^_^
+117. Servleturile utilizeaza metoda service() care:
+a. este apelata automat ca raspuns la cererea fiecarui client*
+b. se apeleaza doar cand porneste servletul	
+c. se apeleaza doar dupa ce servletul este incarcat
+^_^
+118. Unde poate fi scris codul unui servlet:
+a. in una din metodele doGet() sau doPost() (in functie de tipul cererii HTTP) pentru a raspunde cererii clientului(sau in metodele apelate din aceasta)*
+b. in main
+c. in main si in metode apelate din main
+^_^
+119. Cum pot fi preluati parametrii completati intr-un form ai unui servlet?
+a. cu ajutorul unui obiect de tip HtmlForm si a metodei getformParameter()
+b. cu ajutorul unui vector de obiecte de tip FormParameter()
+c. cu ajutorul unui obiect de tip HttpServletRequest si a metodei getParameter*
+^_^
+120. Cum poate raspunde un servlet la cererea unui client?
+a. cu ajutorul unui obiect de tip HttpServletResponse si a unui obiect de tip PrintWriter*
+b. cu ajutorul unui vector de obiecte de tip FormResponse()
+c. cu ajutorul unui obiect de tip HtmlForm si a metodei sendFormParameter()
+^_^
+121. Daca metoda service() nu e suprascisa dupa ce a fost primit un set de date de la client, atunci implementarea implicita a acesteia este sa:
+a. apeleze anumite servicii din Windows
+b. apeleze metodele doGet() sau doPost() corespunzatoare*
+c. apeleze obiecte din datele introduse in form
+^_^
+122.Metoda doPost este apelata de fiecare data cand:
+a.apare o cerere HTTP de tip POST primita de servlet*
+b.servletul isi incheie executia
+c.dupa ce a fost primit un set de date de la client
+d.la iesirea dintr-un program Java cu interfata grafica, pentru eliberarea resurselor
+^_^
+123.Incercuiti variant corecta cu privire la polimorfism:
+a.este abilitatea unui obiect de a lua mai multe forme*
+b.este abilitatea unei clase de a fi extinsa
+c.este abilitatea unei metode de a avea mai multi parametric de intrare
+^_^
+124.In cadrul servleturilor putem utiliza variabile de sesiune(obiecte de tip HttpSession). Acestea permit:
+a.transmiterea de date intre diferite accesari ale aceluiasi servlet sau intre servleturi*
+b.transmiterea de date intre diferiti utilizatori sau intre diferite browsere
+c.transmiterea de date de la un servlet la o baza de date MySQL
+^_^
+125. . Ce este XML?
+a. un set de reguli pentru structurarea datelor in fisiere binare
+b. un set de reguli pentru structurarea datelor in baze de date
+c. un set  de reguli, specificatii si conventii pentru structurarea datelor in fisiere text*
+^_^
+126. XML utlizeaza:
+a.taguri, atribute si text*
+b. variabile de atribute si text
+c. variabile, atribute si text
+^_^
+127.Incercuiti declaratia corecta de constanta in java
+a.define a=3
+b.const int a=3
+c.public static final int a=3*
+d.fix int a=3
+^_^
+128.Care este rolul unui DTD(Document Type Definition):
+a.de a define tipul var din documentul XML
+b.de a asigura ca fisierul XML respecta o anumita structura*
+c.de a define tipul obiectelor create pe baza datelor preluate dintr-un fisier
+^_^
+129.Precizati care este IDE-ul official pentru dezvoltarea aplicatiilor Android:
+a.Eclipse cu plugin instalat pt dezvoltarea de aplicatii Android
+b.NetBeans
+c.Android Studio*
+^_^
+130.Ce notatie poate fi utilizata pt a accesa o resursa a unei aplicatii Android in codul Java?
+a.Rescource.nume_resursa
+b.R tipul_resursei.nume_resursa*
+c.Resource.id_resursa
+^_^
+131.Incercuiti clasa care ofera metode cu care se pot adauga,sterge,actualiza,interoga datele dintr-o tabela SQL Lite in aplicatia Android:
+a.SQLiteOpenHelper*
+b. SQLiteTable
+c. SQLiteDatabase
+d. SQLiteOperations
+^_^
